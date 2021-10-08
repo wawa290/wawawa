@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="`]CB!!aKkcQx0Ln!=P4P" x="-770" y="-85"/><block type="controls_if" id="7y8_T~v_k|!.7Q-r!lky" disabled="true" x="-982" y="-27"><mutation elseif="5"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="8Nui`m+2oUD{|W942:pu" disabled="true"><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="?A4t{Byl%OO!7E3uo_@," disabled="true"><field name="name">AnalogPin.P2</field></block></value><value name="B"><shadow type="math_number" id="PKQ+gPtZ)_E}XRJk7ghU" disabled="true"><field name="NUM">1023</field></shadow></value></block></value><statement name="DO0"><block type="device_set_brightness" id="TPBn_Z}cj,_fem$=8{2S" disabled="true"><value name="value"><shadow type="math_number_minmax" id="C*:i3$Q~z$ep#P:1Sj[D" disabled="true"><mutation min="0" max="255" label="Value" precision="0"/><field name="SLIDER">33</field></shadow></value><next><block type="device_show_leds" id="r6Gv*)P:pCKm3Im4tP^-" disabled="true"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement><value name="IF1"><block type="logic_compare" id="LLeJUSN|%s74Lzto5%dh" disabled="true"><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="{pMG^gn2/N-bKAhPZs[%" disabled="true"><field name="name">AnalogPin.P2</field></block></value><value name="B"><shadow type="math_number" id="Y-5/4Jv(rMxotqb^5|[E" disabled="true"><field name="NUM">1023</field></shadow></value></block></value><statement name="DO1"><block type="device_set_brightness" id=":Y,ib~w/-owC2O[9y[x^" disabled="true"><value name="value"><shadow type="math_number_minmax" id="cRgP=|8h3UX814:W7Uwa" disabled="true"><mutation min="0" max="255" label="Value" precision="0"/><field name="SLIDER">33</field></shadow></value><next><block type="device_show_leds" id="j6uvka|yW?r;D^sJMBVP" disabled="true"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement><value name="IF2"><block type="logic_compare" id="l}4B=VIo;_FUEs9Qvgn9" disabled="true"><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="0ILglq$A64o5^ghvUeN_" disabled="true"><field name="name">AnalogPin.P2</field></block></value><value name="B"><shadow type="math_number" id="XZBDyqjOz=mDT1dsG80=" disabled="true"><field name="NUM">800</field></shadow></value></block></value><statement name="DO2"><block type="device_set_brightness" id="boX.-gC;QN4dGuU%^DxA" disabled="true"><value name="value"><shadow type="math_number_minmax" id="tS1i~X;e8aNvHSrSs{2%" disabled="true"><mutation min="0" max="255" label="Value" precision="0"/><field name="SLIDER">66</field></shadow></value><next><block type="device_show_leds" id="Ig6W{S[[xPEXqaGbvD*)" disabled="true"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement><value name="IF3"><block type="logic_compare" id="q19(2)iy?pFb1lkO#94+" disabled="true"><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="LN;BQAa#UZ$O;yX6ANmw" disabled="true"><field name="name">AnalogPin.P2</field></block></value><value name="B"><shadow type="math_number" id="q[93WP_A!FPuw7{zZxE;" disabled="true"><field name="NUM">600</field></shadow></value></block></value><statement name="DO3"><block type="device_set_brightness" id="5%v0P{zB[%ow45heBwHm" disabled="true"><value name="value"><shadow type="math_number_minmax" id="Zd[Q`adQ1MF}3rY7b;LK" disabled="true"><mutation min="0" max="255" label="Value" precision="0"/><field name="SLIDER">118</field></shadow></value><next><block type="device_show_leds" id="*Xp$`Z=r(pJ`vvr+fdEF" disabled="true"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement><value name="IF4"><block type="logic_compare" id="sQKEn{i=E~HTGU,yEK:V" disabled="true"><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="+M+eA8H{gg3sU4SEx%V6" disabled="true"><field name="name">AnalogPin.P2</field></block></value><value name="B"><shadow type="math_number" id="ESpt9LIj$z|#@(Z;9LIS" disabled="true"><field name="NUM">400</field></shadow></value></block></value><statement name="DO4"><block type="device_set_brightness" id="ckwgtPc_D96f)!yC,^)x" disabled="true"><value name="value"><shadow type="math_number_minmax" id="|W_!K29.DM2p5{lcIyI!" disabled="true"><mutation min="0" max="255" label="Value" precision="0"/><field name="SLIDER">193</field></shadow></value><next><block type="device_show_leds" id="PIVI6E^kdg6l0JfDSx4G" disabled="true"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement><value name="IF5"><block type="logic_compare" id="r?E:bY;V09oT,n/~k4;." disabled="true"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id=";6YsRf,_t67d,]$??.xP" disabled="true"><field name="name">AnalogPin.P2</field></block></value><value name="B"><shadow type="math_number" id="M89-DP:RY3cPAfd},pi@" disabled="true"><field name="NUM">304</field></shadow></value></block></value><statement name="DO5"><block type="device_set_brightness" id="#,Q=.O[K_85|-{WY}jgZ" disabled="true"><value name="value"><shadow type="math_number_minmax" id="hH]Wq7+TVA$vEzR@8V20" disabled="true"><mutation min="0" max="255" label="Value" precision="0"/><field name="SLIDER">255</field></shadow></value></block></statement></block><block type="device_forever" id="CPMV))Y%;Jnxb)%,88V2" x="0" y="0"/><block type="controls_if" id="#7Tpw:PM9Pca6fiTXVW^" disabled="true" x="-59" y="140"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="tpYe4/hg)-760XVxUxh;" disabled="true"><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="n)gdypL/d*N[#RzB(P%J" disabled="true"><field name="name">AnalogPin.P1</field></block></value><value name="B"><shadow type="math_number" id="x8Vl7PjIPF}I[0QrGdk*" disabled="true"><field name="NUM">298</field></shadow></value></block></value><statement name="DO0"><block type="controls_if" id="o$I_o~!yjvW7jnHDs2?c" disabled="true"><value name="IF0"><shadow type="logic_boolean" id="t67y(liyU7lk7Ld~glyL" disabled="true"><field name="BOOL">TRUE</field></shadow></value></block></statement></block><block type="device_show_leds" id="{UG0F?QmB7?XWBz9vgDI" disabled="true" x="-193" y="1563"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        # . . . # 
+        . # # # . 
+        . . . . .
+        `</field></block></xml>
